@@ -18,6 +18,12 @@ npm run typecheck
 npm run build
 ```
 
+## Vercel deployment
+
+The repository includes explicit Vite build settings in `vercel.json`. Once this
+GitHub repository is connected to a Vercel project, every push to `main` triggers a
+production deployment and other branches create preview deployments.
+
 See [PROJECT_BRIEF.md](./PROJECT_BRIEF.md) for the research, safety notes, content plan,
 architecture, sources, and launch checklist. See
 [design-system/MASTER.md](./design-system/MASTER.md) for the visual and accessibility
