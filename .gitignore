@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+
+# Local Vercel state
+.vercel/
+
+# TypeScript and tool caches
+*.tsbuildinfo
+.vite/
+
+# Local logs and QA captures
+*.log
+desktop*.png
+mobile*.png
+support*.png
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
