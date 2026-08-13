@@ -1905,4 +1905,19 @@ section,
   .site-header,
   .mobile-support-pill,
   .hero-art,
-  .pho
+  .phone-scene,
+  .video-frame,
+  .starter-illustration {
+    display: none !important;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  .section,
+  .hero {
+    padding-block: 28px;
+  }
+}
